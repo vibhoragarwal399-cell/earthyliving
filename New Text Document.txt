@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earthy Living - Eco-Friendly Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f9f4;
+            color: #2e4d2e;
+        }
+        header {
+            background-color: #88b488;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        nav {
+            background-color: #6fa06f;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            padding: 20px;
+        }
+        .product {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px #dbe7db;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #88b488;
+            text-align: center;
+            padding: 15px;
+            color: white;
+        }
+        .btn {
+            background-color: #6fa06f;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .btn:hover {
+            background-color: #4c7a4c;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Earthy Living</h1>
+    <p>Live Green. Shop Sustainable. Eco-Friendly Essentials for Everyday Life.</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+    <h2>Welcome to Earthy Living 🌱</h2>
+    <p>Your trusted eco-friendly store with 100% biodegradable, natural & reusable products.</p>
+    <a class="btn" href="#products">Shop Now</a>
+</section>
+
+<section id="products">
+    <h2>Our Eco-Friendly Products</h2>
+
+    <div class="product-grid">
+
+        <div class="product">
+            <img src="https://i.imgur.com/UpH0tQv.jpeg" alt="Bamboo Toothbrush">
+            <h3>Bamboo Toothbrush</h3>
+            <p>Plastic-free oral care. Fully biodegradable bamboo handle.</p>
+            <p><strong>Price: ₹60</strong></p>
+        </div>
+
+        <div class="product">
+            <img src="https://i.imgur.com/sKs58WW.jpeg" alt="Jute Tote Bag">
+            <h3>Jute Tote Bag</h3>
+            <p>Strong, reusable, stylish. Say goodbye to plastic bags.</p>
+            <p><strong>Price: ₹250</strong></p>
+        </div>
+
+        <div class="product">
+            <img src="https://i.imgur.com/WKb11Mv.jpeg" alt="Bamboo Plates">
+            <h3>Bamboo & Bagasse Plates</h3>
+            <p>Compostable plates perfect for home use or parties.</p>
+            <p><strong>Price: ₹15 – ₹30/piece</strong></p>
+        </div>
+
+        <div class="product">
+            <img src="https://i.imgur.com/ePZGAlx.jpeg" alt="Eco Grocery Bag">
+            <h3>Eco Grocery Bag</h3>
+            <p>Reusable grocery bags made from natural fibers.</p>
+            <p><strong>Price: ₹120</strong></p>
+        </div>
+
+        <div class="product">
+            <img src="https://i.imgur.com/2QnJyak.jpeg" alt="Reusable Bottle">
+            <h3>Reusable Eco Bottles</h3>
+            <p>Zero-plastic, natural fiber bottles for daily use.</p>
+            <p><strong>Price: ₹180 – ₹260</strong></p>
+        </div>
+
+        <div class="product">
+            <img src="https://i.imgur.com/3rMvvFk.jpeg" alt="Compostable Cutlery">
+            <h3>Compostable Cutlery</h3>
+            <p>Bamboo / PLA-based spoons, forks & knives.</p>
+            <p><strong>Price: ₹4 – ₹10/piece</strong></p>
+        </div>
+
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Earthy Living</h2>
+    <p>
+        Earthy Living is a small eco-friendly brand dedicated to reducing plastic pollution.  
+        We provide natural, biodegradable, and sustainable alternatives for daily use, made from  
+        bamboo, jute, sugarcane bagasse, and other earth-friendly materials.
+    </p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>We’d love to hear from you!</p>
+
+    <p><strong>📞 WhatsApp:</strong> 9305027364</p>
+    <p><strong>📧 Email:</strong> vibhoragarwal399@gmail.com</p>
+
+    <p>We deliver all over India 🇮🇳</p>
+</section>
+
+<footer>
+    <p>© 2025 Earthy Living — Made for a Greener Planet 🌍</p>
+</footer>
+
+</body>
+</html>
